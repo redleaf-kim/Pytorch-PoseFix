@@ -38,7 +38,7 @@
 - 논문 구현을 중 `백본 모델만 ResNet-152가 아닌 ResNet-50으로 구현` 후 학습
 - 논문 구현에서 거의 바꾸지 않고 학습한 후에 `original 모델의 결과보다 AP가 높게 나오기 시작해서`  daram에 얹은 후 결과 비교해 봤음 → 생각보다 결과가 좋지는 않았다.
 - 결과가 좋지 않은 이유를 생각해 봤음
-    - 해결해보자 하는 테스크
+    -  경우
         1. 사람-사람 occlusion
         2. 사람-배경 occlusion
 
@@ -119,9 +119,6 @@ ore값이 threshold를 넘는 디텍션 결과가 1~10개 정도 되는 것 같�
 
 #### [디렉터리 구조]
 ![Directory](./imgs/Directory.png)
-<br></br>
-input_pose_path와 test_on_trainpath의 하위 json파일은 weight 파일과 함께 공유
-<br></br>
 <br></br>
 
 
