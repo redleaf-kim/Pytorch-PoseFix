@@ -20,7 +20,6 @@
 - OKS
     - Object Keypoint Similarity로 COCO Dataset에서 정의한 metric
     - 예측한 keypoint와 GT keypoint와의 유사도를 측정하는 방법
-    - $KS = exp{-{d_i}^2 \over 2s^2{k_i}^2}$
 
 - Keypoint Similarity
 - Jitter: estimator 결과가 in-approximat 안에 존재하지만 human error margin 밖에 존재할 때
